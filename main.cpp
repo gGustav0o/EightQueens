@@ -6,8 +6,8 @@ using namespace std;
 #define MEMORY_ERROR 2
 #define FILE_ERROR 3
 #define SCAN_ERROR 4
-#define path R"(C:\Users\Kurai\Desktop\0\Proga\queens\number.txt)"
-#define output R"(C:\Users\Kurai\Desktop\0\Proga\queens\output.txt)"
+#define path R"(...\queens\number.txt)"
+#define output R"(...\queens\output.txt)"
 //-------------------ERROR--FUNCTIONS-------------------//
 void memoryError(){
     std::cerr<<"Memory error\n";
